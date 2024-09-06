@@ -8,7 +8,7 @@ export default function GameCell({cellItem, index}) {
 
   const cellClickhandler = ()=>{
     updatedBoard(index)
-    const result =checkForWinner(game.board)
+    checkForWinner(game.board)
   }
   return (
     <CellStyles onClick={cellClickhandler}>
