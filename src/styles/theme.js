@@ -29,7 +29,7 @@ export const lightTheme = {
         },
     },
     media: {
-        mobile: "(max-width: 1000px)"
+        mobile: `@media (max-width: 1000px)`
     }
 };
 
@@ -64,6 +64,6 @@ export const darkTheme = {
         },
     },
     media: {
-        mobile: "(max-width: 1000px)"
+         mobile: `@media (max-width: 1000px)`
     }
 }
